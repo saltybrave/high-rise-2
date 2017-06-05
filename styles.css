@@ -401,32 +401,125 @@ a:hover {
     margin-left: auto;
     width: 800px;
 }
+
 .box{
     margin-top: 10px;
 }
+
 .mobile-content-container {
     margin-right: auto;
     margin-left: auto;
     width: 600px;
     height: 300px;
 }
-.arrow{
+.arrow {
     display: inline-block;
     padding-left: 110px;
 
 }
-.arrow2{
+.arrow2 {
     display: inline-block;
     padding-left: 200px;
 }
-.roominfo{
+.roominfo {
     padding-top: 10px;
 }
 .content-image {
     width: auto;
     height: 255px;
     float: left;
+}
 
+.blue-font {
+    
+    color:cadetblue;
+}
+
+
+#about-graphic {
+    
+    background-image: url(images/about-element.png);
+    height:500px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#travel-graphic {
+    
+    background-image: url(images/travel-graphic.png);
+    height:300px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#maps-graphic {
+    
+    background-image: url(images/maps-graphic.png);
+    height:300px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+#register-graphic {
+    
+    background-image: url(images/register-graphic.png);
+    height:1050px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+#register-info-block {
+    
+    letter-spacing: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 40px;
+    
+}
+
+
+.register-click-box {
+    
+    
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    height:260px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.register-click-box2 {
+    
+    
+    margin-top: 50px;
+    border-style: solid;
+    border-width:2px;
+    border-color: black;
+    height:290px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bodytext {
@@ -444,7 +537,6 @@ a:hover {
 }
 
 #content {
-    height:1100px;
     margin-right:auto;
     margin-left:auto;
 }
@@ -522,10 +614,34 @@ a:hover {
 }
 
 
+.third-section-register {
+    
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    height:55px;
+    width:450px;
+    background-repeat: no-repeat;
+    background-color:cadetblue;
+    background-position: center;
+    border-color: rgba(0,0,0,0.3);
+    border-style: solid;
+}
+
+
 .third-section:hover {
     background-color:mediumseagreen;
 }
 
+.third-section-about:hover {
+    background-color:orange;  
+}
+
+
+.third-section-register:hover {
+    background-color:orange;  
+}
 
 #register-now {
     font-family: AnchorJack;
