@@ -448,40 +448,25 @@ a:hover {
 }
 
 #travel-graphic {
+    
     background-image: url(images/travel-graphic.png);
     height:300px;
     width:100%;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#transit {
-    background-image: url(images/transit.png);
-    height:300px;
-    width:100%;
-    background-position:top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-#parking {
-    background-image: url(images/parking.png);
-    height:300px;
-    width:100%;
-    background-position:top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 #maps-graphic {
+    
     background-image: url(images/maps-graphic.png);
     height:300px;
     width:100%;
     background-position:top;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    
 }
 
 
