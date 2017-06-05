@@ -398,10 +398,39 @@ a:hover {
     height: 255px;
 }
 
+
+.blue-font {
+    
+    color:cadetblue;
+}
+
+
 #about-graphic {
     
     background-image: url(images/about-element.png);
     height:500px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#travel-graphic {
+    
+    background-image: url(images/travel-graphic.png);
+    height:300px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#maps-graphic {
+    
+    background-image: url(images/maps-graphic.png);
+    height:300px;
     width:100%;
     background-position:top;
     background-size: cover;
@@ -414,7 +443,7 @@ a:hover {
 #register-graphic {
     
     background-image: url(images/register-graphic.png);
-    height:1000px;
+    height:1050px;
     width:100%;
     background-position:top;
     background-size: cover;
@@ -582,6 +611,22 @@ a:hover {
 }
 
 
+.third-section-register {
+    
+    
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    height:55px;
+    width:450px;
+    background-repeat: no-repeat;
+    background-color:cadetblue;
+    background-position: center;
+    border-color: rgba(0,0,0,0.3);
+    border-style: solid;
+}
+
+
 .third-section:hover {
     background-color:orange;
 }
@@ -590,6 +635,12 @@ a:hover {
 .third-section-about:hover {
     background-color:orange;  
 }
+
+
+.third-section-register:hover {
+    background-color:orange;  
+}
+
 
 #register-now {
     font-family: AnchorJack;
