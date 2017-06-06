@@ -122,8 +122,6 @@ a {
     font-family: "futura-pt-condensed", sans-serif;
     font-weight: 800;
     letter-spacing: 4px;
-    color:black;
-    
 }
 
 .ff-gillsans {
@@ -156,7 +154,6 @@ a {
 }
 
 .nav-ul {
-    
     height: 58px;
     width: 100%;
     max-width: 960px;
@@ -305,8 +302,11 @@ a:hover {
     visibility: hidden;
 }
 
+
+
+
 .day-1-menu {
-    background-image: url(images/day1.png);
+    background-image: url(images/date-header-graphic.png);
     background-size: cover;
     background-repeat: no-repeat;
     height:400px;
@@ -363,7 +363,30 @@ a:hover {
 
 .schedule-container {
     max-width: 300px;
-    margin: 0 auto 30px auto;
+    margin-bottom: 30px;
+}
+
+
+.column-1 {
+    height:500px;
+    width:300px;
+    float:left;
+    margin-right: 30px;
+}
+
+
+.column-2 {
+    height:500px;
+    width:300px;
+    float:left;
+    margin-right: 30px;
+}
+
+
+.column-3 {
+    height:500px;
+    width:300px;
+    float:left;
 }
 
 .map-img {
@@ -408,6 +431,7 @@ a:hover {
     margin-left: auto;
     width: 800px;
 }
+
 .content-container-mobile{
     margin: auto;
     height: 290px;
@@ -415,6 +439,7 @@ a:hover {
     margin-left: auto;
     width: 800px;
 }
+
 .park{
     height: 290px;
     margin-right: auto;
@@ -423,15 +448,36 @@ a:hover {
     float: left;
     max-width: 80%;
 }
+
 .extrainfo{
     margin-left:30px;
 }
+
 .titles{
     margin-top: 15px;
 }
+
 .map{
     width: auto;
     height:290px;
+}
+
+.schedule-content-container {
+    display: block;
+    height:1000px;
+    width: 960px;;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#date-header-graphic{
+    height:400px;
+    background-image: url(images/date-header-graphic.png);
+    background-repeat: no-repeat;
+}
+
+.schedule-content-mobile {
+    display: none;
 }
 
 .mobile-content-container {
@@ -452,11 +498,15 @@ a:hover {
 .arrow {
     display: inline-block;
     padding-left: 10px;
-
 }
+
 .arrow2 {
     display: inline-block;
     padding-left: 200px;
+}
+
+.roominfo {
+    padding-top: 10px;
 }
 
 .content-image {
@@ -473,10 +523,43 @@ a:hover {
 }
 
 .blue-font {
-    
     color:cadetblue;
 }
 
+
+.speakers-graphic{
+    background-image: url(images/speakers-graphic.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#day1-dude {
+    background-image: url(images/day1-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#day2-dude {
+    background-image: url(images/day2-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#day3-dude {
+    background-image: url(images/day3-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #about-graphic {
     
@@ -526,34 +609,24 @@ a:hover {
     background-repeat: no-repeat;    
 }
 
-
-
 #register-graphic {
-    
     background-image: url(images/register-graphic.png);
     height:1050px;
     width:100%;
     background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
 }
 
-
 #register-info-block {
-    
     letter-spacing: 5px;
     padding-top: 50px;
     padding-bottom: 50px;
     line-height: 40px;
-    
 }
 
 
-.register-click-box {
-    
-    
+.register-click-box {    
     border-style: solid;
     border-width:2px;
     border-color: black;
@@ -561,14 +634,9 @@ a:hover {
     width:400px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-
-
 .register-click-box2 {
-    
-    
     margin-top: 50px;
     border-style: solid;
     border-width:2px;
@@ -808,6 +876,14 @@ p {
     
     .header-nav {
         display: block;
+    }
+    
+    .schedule-content-mobile{
+        display: block;
+    }
+    
+    .schedule-content-container {
+        display: none;
     }
 }
 
