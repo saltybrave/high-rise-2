@@ -284,8 +284,8 @@ a:hover {
     overflow: hidden;
 
     transition-property: all;
-      transition-duration: 1s;
-      transition-timing-function: ease-out;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 
 .toggle:checked ~ .expand {
@@ -328,7 +328,7 @@ a:hover {
     width: 30%;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100px;
 }
 
 .arrow-img {
