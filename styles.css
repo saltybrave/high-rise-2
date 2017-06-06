@@ -237,11 +237,11 @@ a:hover {
 }
 
 .about-wrapper {
-    max-width: 720px;
+    width: 720px;
     height: auto;
     margin: 0 auto;
     padding: 20px;
-    width: 530px;
+    max-width: 80%;
 }
 
 .mobile-content-container {
@@ -888,9 +888,37 @@ p {
     .schedule-content-container {
         display: none;
     }
+    
+        #travel-graphic {
+        background-image: url(images/960-lodge.png);
+        height:200px;
+        width:100%;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #transit {
+        background-image: url(images/960-transit.png);
+        height:200px;
+        width:100%;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    #parking {
+        background-image: url(images/960-parking.png);
+        height:200px;
+        width:100%;
+        background-position:left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 799px) {
     .content-container {
         display: none;
     }
