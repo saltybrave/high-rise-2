@@ -302,28 +302,25 @@ a:hover {
     visibility: hidden;
 }
 
-
-
-
 .day-1-menu {
-    background-image: url(images/date-header-graphic.png);
+    background-image: url(images/day1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height:400px;
+    height:300px;
 }
 
 .day-2-menu {
     background-image: url(images/day2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height:400px;
+    height:300px;
 }
 
 .day-3-menu {
     background-image: url(images/day3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height:400px;
+    height:300px;
 }
 
 .arrow-placement {
@@ -362,30 +359,35 @@ a:hover {
 }
 
 .schedule-container {
-    max-width: 300px;
+    max-width: 250px;
     margin-bottom: 30px;
 }
 
+.schedule-container-mobile {
+    max-width: 300px;
+    margin: 0 auto 30px auto;
+}
 
 .column-1 {
     height:500px;
-    width:300px;
+    width:250px;
     float:left;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
 .column-2 {
     height:500px;
-    width:300px;
+    width:250px;
     float:left;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 
 .column-3 {
     height:500px;
-    width:300px;
+    width:250px;
     float:left;
 }
 
@@ -471,9 +473,11 @@ a:hover {
 }
 
 #date-header-graphic{
-    height:400px;
+    height:300px;
     background-image: url(images/date-header-graphic.png);
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .schedule-content-mobile {
@@ -740,11 +744,10 @@ a:hover {
 
 
 .third-section-register {
-    
-    
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right:auto;
+    margin-bottom: 30px;
     height:55px;
     width:450px;
     background-repeat: no-repeat;
