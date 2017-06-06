@@ -296,8 +296,11 @@ a:hover {
     visibility: hidden;
 }
 
+
+
+
 .day-1-menu {
-    background-image: url(images/day1.png);
+    background-image: url(images/date-header-graphic.png);
     background-size: cover;
     background-repeat: no-repeat;
     height:400px;
@@ -353,8 +356,31 @@ a:hover {
 }
 
 .schedule-container {
-    max-width: 200px;
-    margin: 0 auto 30px auto;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+
+.column-1 {
+    height:500px;
+    width:300px;
+    float:left;
+    margin-right: 30px;
+}
+
+
+.column-2 {
+    height:500px;
+    width:300px;
+    float:left;
+    margin-right: 30px;
+}
+
+
+.column-3 {
+    height:500px;
+    width:300px;
+    float:left;
 }
 
 .map-img {
@@ -399,6 +425,24 @@ a:hover {
     width: 800px;
 }
 
+.schedule-content-container {
+    display: block;
+    height:1000px;
+    width: 960px;;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#date-header-graphic{
+    height:400px;
+    background-image: url(images/date-header-graphic.png);
+    background-repeat: no-repeat;
+}
+
+.schedule-content-mobile {
+    display: none;
+}
+
 .box{
     margin-top: 10px;
 }
@@ -412,8 +456,8 @@ a:hover {
 .arrow {
     display: inline-block;
     padding-left: 110px;
-
 }
+
 .arrow2 {
     display: inline-block;
     padding-left: 200px;
@@ -421,6 +465,7 @@ a:hover {
 .roominfo {
     padding-top: 10px;
 }
+
 .content-image {
     width: auto;
     height: 255px;
@@ -428,10 +473,43 @@ a:hover {
 }
 
 .blue-font {
-    
     color:cadetblue;
 }
 
+
+.speakers-graphic{
+    background-image: url(images/speakers-graphic.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#day1-dude {
+    background-image: url(images/day1-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#day2-dude {
+    background-image: url(images/day2-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#day3-dude {
+    background-image: url(images/day3-dude.png);
+    height:400px;
+    width:100%;
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #about-graphic {
     
@@ -760,6 +838,14 @@ p {
     
     .header-nav {
         display: block;
+    }
+    
+    .schedule-content-mobile{
+        display: block;
+    }
+    
+    .schedule-content-container {
+        display: none;
     }
 }
 
