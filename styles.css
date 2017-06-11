@@ -124,6 +124,11 @@ a {
     letter-spacing: 4px;
 }
 
+.ff-futura-cond-eb-reg {
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 800;
+}
+
 .ff-gillsans {
     font-family: 'GillSans', sans-serif;
 }
@@ -132,7 +137,7 @@ a {
 }
 
 .ff-anchorjack {
-    font-family: 'Anchor Jack', sans-serif;
+    font-family: 'AnchorJack', sans-serif;
     text-transform: uppercase;
 }
 
@@ -223,7 +228,7 @@ a:hover {
 .hamburger-dropdowns {
     width: 100vw;
     text-align: center;
-    margin: 5px auto;
+    margin: 25px auto;
 }
 
 .main-wrapper {
@@ -242,12 +247,6 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
     max-width: 80%;
-}
-
-.mobile-content-container {
-    display: none;
-    margin: 10px auto;
-    width: 300px;
 }
 
 .margin-25 {
@@ -332,14 +331,14 @@ a:hover {
 }
 
 .arrow-img {
-    height: 25px;
+    height: 30px;
     width: auto;
     margin: auto;
 }
 
 .arrow-button {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -364,7 +363,7 @@ a:hover {
 }
 
 .schedule-container-mobile {
-    max-width: 300px;
+    max-width: 240px;
     margin: 0 auto 30px auto;
 }
 
@@ -372,8 +371,8 @@ a:hover {
     height:500px;
     width:250px;
     float:left;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 40px;
 }
 
 
@@ -392,7 +391,7 @@ a:hover {
 }
 
 .map-img {
-    margin: 30px auto;
+    margin: 15px auto 50px auto;
     width: 75vw;
     max-width: 400px;
     height: auto;
@@ -404,27 +403,38 @@ a:hover {
 .footer{
     background-color: rgba(255,255,255,0.8);
     width: 100%;
-    height: 80px;
+    height: 100px;
     clear: both;
 }
 
 .footer p {
+    margin-top: 15px;
     font-size: 10px;
 }
 
 .social-wrapper {
-    height: 50px;
+    height: 48px;
     width: 200px;
     margin: auto;
 }
 
-.footer img {
+.aiga-logo {
+    height: 50px;
+    width: auto;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.soc-icon {
     height: 30px;
     display: inline-block;
     float: left;
-    padding-top: 10px;
+    padding-top: 18px;
     margin: 0 10px;
 }
+
+/* End Footer */
 
 .content-container {
     margin: 30px 0;
@@ -466,7 +476,7 @@ a:hover {
 
 .schedule-content-container {
     display: block;
-    height:1000px;
+    height: 1100px;
     width: 960px;;
     margin-left: auto;
     margin-right:auto;
@@ -485,15 +495,18 @@ a:hover {
 }
 
 .mobile-content-container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 330px;
+    display: none;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    max-width: 330px;
     height: 110px;
 }
 .mobile-content-container2 {
     margin-right: auto;
     margin-left: auto;
-    width: 330px;
+    margin-top: 10px;
+    padding: 0 20px;
+    max-width: 330px;
 }
 .margin-10 {
     margin-top: 10px;
@@ -636,6 +649,7 @@ a:hover {
     border-color: black;
     height:260px;
     width:400px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -647,6 +661,7 @@ a:hover {
     border-color: black;
     height:290px;
     width:400px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -682,21 +697,19 @@ a:hover {
 
 
 .title-section {
- 
     width:1000px;
+    max-width: 80%;
     margin-left:auto;
     margin-right:auto;
 }
 
 #title-conference {
-    
     font-family: AnchorJack;
     color:black;
     letter-spacing: 3.7px;
     font-size: 45px;
     text-align: center;
 }
-
 
 .first-section {
     margin-top:50px;
@@ -712,10 +725,8 @@ a:hover {
     height:200px;
     width:450px;
     background-repeat: no-repeat;
-    background-position: center
-    
+    background-position: center  
 }
-
 
 .second-section {
     margin-left: auto;
@@ -734,6 +745,7 @@ a:hover {
     margin-right:auto;
     height:55px;
     width:500px;
+    max-width: 80%;
     background-repeat: no-repeat;
     background-position: center;
     border: 2px;
@@ -748,8 +760,8 @@ a:hover {
     margin-left: auto;
     margin-right:auto;
     margin-bottom: 30px;
-    height:55px;
     width:450px;
+    max-width: 80%;
     background-repeat: no-repeat;
     background-color:cadetblue;
     background-position: center;
@@ -889,7 +901,7 @@ p {
         display: none;
     }
     
-        #travel-graphic {
+    #travel-graphic {
         background-image: url(images/960-lodge.png);
         height:200px;
         width:100%;
@@ -924,10 +936,11 @@ p {
         background-size: cover;
         background-repeat: no-repeat;    
     }
-    
+
 }
 
 @media only screen and (max-width: 799px) {
+    
     .content-container {
         display: none;
     }
@@ -935,4 +948,13 @@ p {
     .mobile-content-container {
         display: block;
     }
+    
+    .aiga-logo {
+        display: none;
+    }
+    
+    .footer{
+        height: 110px;
+    }
+    
 }
